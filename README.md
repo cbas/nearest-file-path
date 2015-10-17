@@ -1,6 +1,8 @@
 # nearest-file-path
 Find a relative path in a directory, travelling up the ancestral chain until found.
 
+[![Build Status](https://travis-ci.org/cbas/nearest-file-path.svg?branch=master)](https://travis-ci.org/cbas/nearest-file-path)
+
 ## Example
 
 ```js
