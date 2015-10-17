@@ -3,6 +3,8 @@ Find a relative path in a directory, travelling up the ancestral chain until fou
 
 [![Build Status](https://travis-ci.org/cbas/nearest-file-path.svg?branch=master)](https://travis-ci.org/cbas/nearest-file-path)
 
+[![NPM](https://nodei.co/npm/nearest-file-path.png)](https://nodei.co/npm/nearest-file-path/)
+
 ## Example
 
 ```js
