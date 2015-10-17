@@ -1,0 +1,6 @@
+{
+  "production": true,
+  "allow-licenses": [
+    "MIT"
+  ]
+}
