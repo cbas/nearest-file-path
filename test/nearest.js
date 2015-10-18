@@ -3,9 +3,9 @@ import nearest from '../lib'
 import { join } from 'path'
 import { expect } from 'chai'
 
-describe('nearest()', () => {
-  const path = join(__dirname, 'a/b/c/d')
+const path = join(__dirname, 'a/b/c/d')
 
+describe('nearest()', () => {
   it('finds the nearest file', () =>
     expect(nearest('a.txt', path))
       .to.eventually.equal(join(__dirname, 'a/a.txt'))
