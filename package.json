@@ -4,7 +4,9 @@
   "description": "Travel up the ancestral directory tree to find a path",
   "main": "dist",
   "scripts": {
-    "test": "node-license-validator && standard && mocha",
+    "test": "node-license-validator && standard && npm run coverage",
+    "coverage": "babel-node node_modules/.bin/isparta cover node_modules/.bin/_mocha",
+    "codecov": "cat coverage/coverage.json | codecov",
     "prepublish": "npm run clean && npm run build",
     "clean": "rimraf dist && mkdirp dist",
     "build": "babel lib --out-file dist/index.js"
@@ -30,6 +32,8 @@
     "babel-eslint": "^4.1.3",
     "chai": "^3.3.0",
     "chai-as-promised": "^5.1.0",
+    "codecov.io": "^0.1.6",
+    "isparta": "^3.1.0",
     "mkdirp": "^0.5.1",
     "mocha": "^2.3.3",
     "node-license-validator": "^1.2.0",

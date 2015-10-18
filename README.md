@@ -2,6 +2,7 @@
 Find a relative path in a directory, travelling up the ancestral chain until found.
 
 [![Build Status](https://travis-ci.org/cbas/nearest-file-path.svg?branch=master)](https://travis-ci.org/cbas/nearest-file-path)
+[![codecov.io](https://codecov.io/github/cbas/nearest-file-path/coverage.svg?branch=master)](https://codecov.io/github/cbas/nearest-file-path?branch=master)
 
 [![NPM](https://nodei.co/npm/nearest-file-path.png)](https://nodei.co/npm/nearest-file-path/)
 
